@@ -43,5 +43,16 @@
     "subTitle":"Create surveys, share them easily, and get real feedback. Survey Land lets you build MCQs, comment boxes, and more — all in one simple platform.",
     "btn1":"Exolore",
     "btn2":"Create"
+  },
+    "boxSmall":{
+    "title":"How It Works",
+    "subTitle":"Get started in just 3 simple steps",
+    "heading1":"Create Your Survey",
+    "text1":"Choose a template or start from scratch using our easy-to-use builder",
+    "heading2":"Share With Your Audience",
+    "text2":"Send your survey via email, social media, or embed it in your website",
+    "heading3":"Analyze Responses",
+    "text3":"Get instant insights with clean charts and downloadable reports"
   }
+
 }

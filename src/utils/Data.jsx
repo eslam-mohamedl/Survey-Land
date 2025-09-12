@@ -1,33 +1,34 @@
-import BoxHowWork from "../components/molecules/BoxHowWork";
-import { FaUser, FaBook, FaPlay } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
-const HowItWorks = () => {
-  const steps = [
+export function useBoxData(){
+  const { t } = useTranslation();
+  const smallBox = [
     {
-      title: "Step 1",
-      description: "Register for an account in just a few minutes.",
-      icon: <FaUser size={24} />,
+      title: t("boxSmall.heading1"),
+      text: t("boxSmall.text1"),
     },
-    {
-      title: "Step 2",
-      description: "Browse our wide selection of courses and resources.",
-      icon: <FaBook size={24} />,
+     {
+      title: t("boxSmall.heading2"),
+      text: t("boxSmall.text2"),
     },
-    {
-      title: "Step 3",
-      description: "Start learning with interactive lessons and videos.",
-      icon: <FaPlay size={24} />,
+     {
+      title: t("boxSmall.heading3"),
+      text: t("boxSmall.text3"),
     },
   ];
+  const tradeBox = [
+       { value: "$45,345,654",
+         title: "ALL TIME TRADE VALUE" 
+        },
+    { 
+      value: "$45,345,654", 
+      title: "ALL TIME TRADE VALUE" 
+    },
+    { 
+      value: "$45,345,654",
+       title: "ALL TIME TRADE VALUE"
+       },
+  ];
+  return {smallBox ,tradeBox};
+}
 
-  return (
-    <BoxHowWork
-      cardsData={steps}
-      NumberCard={3}
-      variant="elevated"
-      hoverable
-    />
-  );
-};
-
-export default HowItWorks;
