@@ -1,0 +1,57 @@
+@import "tailwindcss";
+/* 1. عرّف variant مخصص للوضع المظلم باستخدام class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 2. لو حابب تستخدم design tokens عبر المتغيرات: */
+@theme {
+  --color-primary: #00B7C1;
+  --color-secondary:#EE4A62;
+  --color-background: #ffffff;
+   --color-light-primary: #ffffff;   
+    --color-light-secondary: #f3f4f6; 
+    --color-dark-primary: #111827;    
+    --color-dark-secondary: #1f2937;
+    --color-backgroundPage:
+}
+
+/* 3. ثم اكتب القيم للوضع المظلم داخل class .dark */
+@layer base {
+  .dark {
+       --color-light-primary: #F9F9FB;   /* لون نص فاتح */
+    --color-light-secondary: #FFFFFF; /* رمادي فاتح */
+    --color-dark-primary: #19191B;    /* نفس الأساسي */
+    --color-dark-secondary: #131516;  /* نفس الثانوي */
+  }
+}
+
+html.dark{
+  background-color: var(--color-dark-primary);
+  color: var(--color-light-primary);
+}
+html.light{
+  background-color: var(--color-light-secondary);
+    color: var(--color-dark-primary);
+
+}
+@media (min-width:768px){
+    .container{
+        width:750px;
+    }
+}
+/*medium screen*/
+@media (min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+/*large screen*/
+@media (min-width:1100px){
+    .container{
+        width:1100px;
+        margin: 0 auto;
+    }
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}

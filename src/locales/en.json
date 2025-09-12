@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "about-us": "About Us",
+    "contact-us": "Contact Us",
+    "faqs": "FAQs",
+    "pricing": "Pricing",
+    "login": "Login",
+    "sign-up" :"Sign up"
+  },
+  "footer":{
+   "titleLogo1":"Survey",
+   "titleLogo2":"Land",
+   "DescLogo":"Make smarter decisions with better data.Create surveys, gather feedback, and grow.",
+   "TextFrom":"Stay informed by entering your email",
+   "TextBtn":"Enter",
+   "nav1":"Home",
+   "nav2":"Templates",
+   "nav3":"Pricing",
+   "nav4":"Integrations",
+   "nav6":"Help Center",
+   "nav7":"Terms of Service",
+   "nav8":"Privacy Policy",
+   "nav9":"Refund Policy",
+   "nav10":"FAQs",
+   "headerEmail":"E-mail us at",
+   "TextEmail":"Support@example.com",
+   "followUs":"Follow us"
+  },
+  "heroHome":{
+    "title1":"turn",
+    "title2":"Questions",
+    "title3":"into Clarity and Transform",
+    "title4":"Responses",
+    "title5":"into Valuable Insights",
+    "subTitle":"Effortlessly build surveys that deliver the answers you need to grow, improve, and connect with your audience.",
+    "btn1":"Create Your Survey",
+    "btn2":"See How It Works"
+  },
+  "heroAbout":{
+    "title1":"Simple Smart ",
+    "title2":"Surveys",
+    "subTitle":"Create surveys, share them easily, and get real feedback. Survey Land lets you build MCQs, comment boxes, and more — all in one simple platform.",
+    "btn1":"Exolore",
+    "btn2":"Create"
+  }
+}
