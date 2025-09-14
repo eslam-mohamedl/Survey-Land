@@ -9,7 +9,7 @@ function About() {
         const { tradeBox} = useBoxData();
   return (
     <>
-            <HeroSection
+            <HeroSection 
         title1={t("heroAbout.title1")}
         title2={t("heroAbout.title2")}
         subTitle={t("heroAbout.subTitle")}
