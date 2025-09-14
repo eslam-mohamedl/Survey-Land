@@ -3,9 +3,12 @@ import HeroSection from "../molecules/HeroSection";
 import * as img from './../../assets/images/images';
 import BoxHowItWork from "../molecules/BoxHowWork";
 import { useBoxData } from "./../../utils/Data";
+import CardTemplateList from "../molecules/CardTemplateList";
+import { useCardData } from "./../../utils/Data";
 function Home() {
   const { t } = useTranslation();
-  const { smallBox} = useBoxData();
+  const { smallBox } = useBoxData();
+const cartTemplates = useCardData();
   return (
     <div className="space-y-8">
   
@@ -37,6 +40,20 @@ function Home() {
           />
         ))}
       </div>
+   <div className="container">
+  <div className="container space-y-12">
+        {cartTemplates.map((card) => (
+          <CardTemplateList
+            key={card.id}
+            heading1={card.heading1}
+            heading2={card.heading2}
+            rightText={card.heading3}
+         cards={card.cards}
+          />
+        ))}
+      </div>
+
+   </div>
 
         </div>
  

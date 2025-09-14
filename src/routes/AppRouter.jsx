@@ -19,6 +19,7 @@ import PublicTemplate from "./../components/templates/PublicTemplate";
 import DashboardTemplate from "./../components/templates/DashboardTemplate";
 import AuthTemplate from "../components/templates/AuthTemplate";
 import AuthGuard from "./../guards/AuthGuard";
+import ErrorPage from '../components/pages/ErrorPage';
 const AppRouter = createBrowserRouter([
       // Public Template
   {
@@ -66,7 +67,7 @@ const AppRouter = createBrowserRouter([
  /// Page Not Page
   { 
         path: "*",
-         element: <div>Page Not Found</div>
+         element: <ErrorPage statusCode={404} />
   }
 ]);
 

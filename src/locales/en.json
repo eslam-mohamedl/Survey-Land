@@ -53,6 +53,112 @@
     "text2":"Send your survey via email, social media, or embed it in your website",
     "heading3":"Analyze Responses",
     "text3":"Get instant insights with clean charts and downloadable reports"
+  },
+  "cardTemplate1":{
+      "heading1":"1. Customer Feedback",
+      "heading2":"Surveys",
+      "rightText":"View all",
+   "card1":{
+      "headerCard":"Customer Satisfaction",
+      "mainCard":"Evaluates satisfaction with a specific interaction or purchase",
+      "btn":"Use Template"
+   },
+   "card2":{
+
+    "headerCard":" Net Promoter Score (NPS)",
+    "mainCard":"Measures likelihood of customers recommending your brand",
+    "btn":"Use Template"
+   },
+     "card3":{
+    "headerCard":"Service Quality Survey",
+    "mainCard":"Assesses customer service interactions",
+    "btn":"Use Template"
+   },
+    "card4":{
+    "headerCard":"Post-Purchase Feedback",
+    "mainCard":"Gathers feedback after a transaction",
+    "btn":"Use Template"
+   }
+  },
+    "cardTemplate2":{
+    "heading1":"2. Market",
+    "heading2":"Research",
+    "rightText":"Market",
+   "card1":{
+      "headerCard":"Customer Satisfaction",
+      "mainCard":"Evaluates satisfaction with a specific interaction or purchase",
+      "btn":"Use Template"
+   },
+   "card2":{
+    "headerCard":" Net Promoter Score (NPS)",
+    "mainCard":"Measures likelihood of customers recommending your brand",
+    "btn":"Use Template"
+   },
+     "card3":{
+    "headerCard":"Service Quality Survey",
+    "mainCard":"Assesses customer service interactions",
+    "btn":"Use Template"
+   },
+    "card4":{
+    "headerCard":"Post-Purchase Feedback",
+    "mainCard":"Gathers feedback after a transaction",
+    "btn":"Use Template"
+   }
+  }, 
+  "cardTemplate3":{
+     "heading1":"3. Education &",
+    "heading2":"Training",
+    "rightText":"Market",
+   "card1":{
+      "headerCard":"Customer Satisfaction",
+      "mainCard":"Evaluates satisfaction with a specific interaction or purchase",
+      "btn":"Use Template"
+   },
+   "card2":{
+    "headerCard":" Net Promoter Score (NPS)",
+    "mainCard":"Measures likelihood of customers recommending your brand",
+    "btn":"Use Template"
+   },
+     "card3":{
+
+    "headerCard":"Service Quality Survey",
+    "mainCard":"Assesses customer service interactions",
+    "btn":"Use Template"
+   },
+    "card4":{
+    "heading1":"Event",
+    "heading2":"Feedback",
+    "rightText":"Market",
+    "headerCard":"Post-Purchase Feedback",
+    "mainCard":"Gathers feedback after a transaction",
+    "btn":"Use Template"
+   }
+  }, 
+    "cardTemplate4":{
+     "heading1":"4. Event",
+    "heading2":"Feedback",
+    "rightText":"Market",
+   "card1":{
+      "headerCard":"Customer Satisfaction",
+      "mainCard":"Evaluates satisfaction with a specific interaction or purchase",
+      "btn":"Use Template"
+   },
+   "card2":{
+    "headerCard":" Net Promoter Score (NPS)",
+    "mainCard":"Measures likelihood of customers recommending your brand",
+    "btn":"Use Template"
+   },
+     "card3":{
+
+    "headerCard":"Service Quality Survey",
+    "mainCard":"Assesses customer service interactions",
+    "btn":"Use Template"
+   },
+    "card4":{
+    "headerCard":"Post-Purchase Feedback",
+    "mainCard":"Gathers feedback after a transaction",
+    "btn":"Use Template"
+   }
   }
 
 }
