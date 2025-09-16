@@ -1,5 +1,5 @@
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
-import { AlignLeft , X , Moon ,SunMedium , Linkedin  } from 'lucide-react';
+import { AlignLeft , X , Moon ,SunMedium , Linkedin ,Check   } from 'lucide-react';
 import { FaArrowRight } from "react-icons/fa";
 
 export{
@@ -9,6 +9,7 @@ export{
     SunMedium,
     Moon,
     Linkedin,
-    FaArrowRight
+    FaArrowRight,
+    Check 
     
 }

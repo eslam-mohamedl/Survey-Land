@@ -167,6 +167,47 @@
     "subTitle":"Looking for advanced features? Check out our latest plans",
     "btn1":"Monthly",
     "btn2":"Yearly"
-   }
+   },
+   "PricingCard1":{
+    "variant":"light",
+    "title":"Basic",
+    "description":"Create interactive forms that connect to your workflow",
+    "price":"25",
+    "period":"period",
+    "Features":{
+      "item1":"100 responses",
+      "item2":"1 user",
+      "item3":"Unlimited surveyland",
+      "item4":"Unlimited questions"
+    }
+  },
+      "PricingCard2":{
+        "variant":"filled",
+    "title":"Basic",
+    "description":"Create interactive forms that connect to your workflow",
+    "price":"25",
+    "period":"period",
+    "Features":{
+      "item1":"100 responses",
+      "item2":"1 user",
+      "item3":"Unlimited surveyland",
+      "item4":"Unlimited questions"
+    }
+  },
+     "PricingCard3":{
+    "variant":"light",
+    "title":"Basic",
+    "description":"Create interactive forms that connect to your workflow",
+    "price":"25",
+    "period":"period",
+    "Features":{
+      "item1":"100 responses",
+      "item2":"1 user",
+      "item3":"Unlimited surveyland",
+      "item4":"Unlimited questions"
+    }
+  }
+
+
 
 }

@@ -1,5 +1,47 @@
 import { useTranslation } from "react-i18next";
 import * as img from '../assets/images/images';
+import * as icons from './../assets/icons/icons';
+export const DataPricing = [
+  {
+     id:1,
+     variant: "PricingCard1.variant", 
+     title: "PricingCard1.title",
+     description: "PricingCard1.description",
+     price: "PricingCard1.price",
+     period: "PricingCard1.period",
+     icon: icons.Check,
+     item1: "PricingCard1.Features.item1",
+     item2: "PricingCard1.Features.item2",
+     item3: "PricingCard1.Features.item3",
+     item4: "PricingCard1.Features.item4",
+  },
+  {
+     id:2,
+     variant: "PricingCard2.variant", 
+     title: "PricingCard2.title",
+     description: "PricingCard2.description",
+     price: "PricingCard2.price",
+     period:" PricingCard2.period",
+     icon: icons.Check,
+     item1: "PricingCard2.Features.item1",
+     item2: "PricingCard2.Features.item2",
+     item3: "PricingCard2.Features.item3",
+     item4: "PricingCard2.Features.item4",
+  },
+  {
+     id:3,
+     variant: "PricingCard3.variant", 
+     title: "PricingCard3.title",
+     description: "PricingCard3.description",
+     price: "PricingCard3.price",
+     period: "PricingCard3.period",
+     icon: icons.Check,
+     item1:" PricingCard3.Features.item1",
+     item2:" PricingCard3.Features.item2",
+     item3:" PricingCard3.Features.item3",
+     item4:" PricingCard3.Features.item4",
+  },
+];
 export function useBoxData(){
   const { t } = useTranslation();
   const smallBox = [
@@ -170,3 +212,4 @@ export function useCardData(){
   ];
   return cartTemplates
 } 
+
