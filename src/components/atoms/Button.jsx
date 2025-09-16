@@ -19,6 +19,8 @@ const Button = ({
     secondary: "bg-[#D6F2F5] text-dark-primary hover:bg-[#31D3DC] capitalize hover:text-white focus:ring-gray-500 cursor-pointer",
     outline: "border-2 border-[#00B7C1] text-[#00B7C1] hover:bg-[#00B7C1] capitalize hover:text-white focus:ring-blue-500 cursor-pointer" ,
     ghost: "text-[#00B7C1] hover:bg-blue-50 focus:ring-blue-500 capitalize cursor-pointer",
+      toggleActive: "bg-primary text-white cursor-pointer hover:bg-primary", 
+  toggleInactive: "bg-white text-gray-600 cursor-pointer hover:bg-white",
   };
   
   const sizes = {
