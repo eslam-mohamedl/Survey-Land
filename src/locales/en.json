@@ -159,6 +159,14 @@
     "mainCard":"Gathers feedback after a transaction",
     "btn":"Use Template"
    }
-  }
+ 
+  },
+    "pricingPage":{
+    "title1":"plan &",
+    "title2":"Pricing",
+    "subTitle":"Looking for advanced features? Check out our latest plans",
+    "btn1":"Monthly",
+    "btn2":"Yearly"
+   }
 
 }
