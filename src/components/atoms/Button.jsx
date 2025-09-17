@@ -10,18 +10,19 @@ const Button = ({
   onClick, 
   type = "button",
   className = "",
+  isRounded=false,
   ...props 
 }) => {
-  const baseClasses = "inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+  const baseClasses = "inline-flex items-center justify-center font-medium  transition-all duration-200 ";
   
   const variants = {
-    primary: "bg-[#00B7C1] text-white hover:bg-[#31D3DC] capitalize focus:ring-blue-500 cursor-pointer",
-    secondary: "bg-[#D6F2F5] text-dark-primary hover:bg-[#31D3DC] capitalize hover:text-white focus:ring-gray-500 cursor-pointer",
-    outline: "border-2 border-[#00B7C1] text-[#00B7C1] hover:bg-[#00B7C1] capitalize hover:text-white focus:ring-blue-500 cursor-pointer" ,
-    ghost: "text-[#00B7C1] hover:bg-blue-50 focus:ring-blue-500 capitalize cursor-pointer",
-      toggleActive: "bg-primary text-white cursor-pointer hover:bg-primary", 
-  toggleInactive: "bg-white text-gray-600 cursor-pointer hover:bg-white",
-  };
+    primary: "bg-[#00B7C1] text-white  dark:bg-dark-primary capitalize  cursor-pointer",
+    secondary: "bg-[#D6F2F5] text-dark-primary  capitalize dark:bg-dark-primary  cursor-pointer",
+    outline: "border-2 border-[#00B7C1] text-[#00B7C1]  capitalize  dark:bg-dark-primary  cursor-pointer" ,
+    ghost: "text-[#00B7C1]  capitalize cursor-pointer ",
+      toggleActive: "bg-primary  text-white cursor-pointer dark:text-dark", 
+  toggleInactive: "bg-white  dark:bg-dark-secondary text-gray-600 dark:text-white cursor-pointer",
+  active:"bg-primary text-white cursor-pointer "  };
   
   const sizes = {
     sm: "px-3 py-1.5 text-sm",
@@ -31,8 +32,9 @@ const Button = ({
   };
   
   const widthClass = fullWidth ? "w-full" : "";
+const rounded = isRounded ? "rounded-full" : "rounded-lg";
   
-  const classes = `${baseClasses} ${variants[variant]} ${sizes[size]} ${widthClass} ${className}`;
+  const classes = `${baseClasses} ${variants[variant]} ${sizes[size]} ${widthClass} ${className} ${rounded}`;
   
   return (
     <button
