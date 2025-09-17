@@ -24,7 +24,7 @@ const SectionTitle = ({
 
   return (
     <div className={`mb-8 py-[80px] ${alignment} ${className}`}>
-      <h2 className={`${sizes[size]}  font-normal text-light 0 mb-2`}>
+      <h2 className={`${sizes[size]}  font-normal text-light 0 mb-[20px]`}>
         {title1} <span className="text-primary">{title2}</span>
       </h2>
       {subtitle && (
@@ -35,18 +35,19 @@ const SectionTitle = ({
       {showDivider && (
         <div className={`mt-6 ${center ? 'mx-auto' : ''} w-24 h-1 bg-blue-600 rounded-full`}></div>
       )}
- {    <div className="bg-white w-fit mx-auto rounded-full p-1 flex">
-      <Button
+ {    <div className="bg-white w-fit mx-auto rounded-full p-1 flex dark:bg-dark-secondary">
+      <Button isRounded={true}
         variant={active === "monthly" ? "toggleActive" : "toggleInactive"}
         onClick={() => setActive("monthly")}
         size="md"
       >
         {btn1}
       </Button>
-      <Button
+      <Button 
         variant={active === "yearly" ? "toggleActive" : "toggleInactive"}
         onClick={() => setActive("yearly")}
         size="md"
+        isRounded={true}
       >
         {btn2}
       </Button>
