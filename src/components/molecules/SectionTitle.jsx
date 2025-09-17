@@ -35,22 +35,22 @@ const SectionTitle = ({
       {showDivider && (
         <div className={`mt-6 ${center ? 'mx-auto' : ''} w-24 h-1 bg-blue-600 rounded-full`}></div>
       )}
-     <div className="bg-white w-fit mx-auto rounded-full p-1 flex">
+ {    <div className="bg-white w-fit mx-auto rounded-full p-1 flex">
       <Button
         variant={active === "monthly" ? "toggleActive" : "toggleInactive"}
         onClick={() => setActive("monthly")}
         size="md"
       >
-        Monthly
+        {btn1}
       </Button>
       <Button
         variant={active === "yearly" ? "toggleActive" : "toggleInactive"}
         onClick={() => setActive("yearly")}
         size="md"
       >
-        Yearly
+        {btn2}
       </Button>
-    </div>
+    </div>}
 
     </div>
   );

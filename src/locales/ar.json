@@ -60,5 +60,11 @@
     "subTitle":"هل تبحث عن ميزات متقدمة؟ اطلع على أحدث باقاتنا",
     "btn1":"شهري",
     "btn2":"سنوي"
-   }
+   },
+     "titleFAQs":{
+    "title1":"Frequently Asked",
+    "title2":"Questions",
+    "subTitle":"Browse our FAQ to troubleshoot issues, learn best practices, or get step-by-step instructions."
+  }
+
 }
